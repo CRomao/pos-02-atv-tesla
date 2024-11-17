@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style-cars.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container container-flex">
+            <!-- logotipo -->
+            <div class="brand">
+                <figure>
+                    <img src="img/logo-black.svg" alt="Logotipo da Tesla">
+                </figure>
+            </div>
+
+            <!-- menu -->
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li>
+                            <a class="active" href="/">Vehicles</a>
+                        </li>
+                        <li>
+                            <a href="/">Energy</a>
+                        </li>
+                        <li>
+                            <a href="/">Charging</a>
+                        </li>
+                        <li>
+                            <a href="/">Discover</a>
+                        </li>
+                        <li>
+                            <a href="/">Shop</a>
+                        </li>
+                        <li>
+                            <a href="/">We, Robot</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="mobile-menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="car-details">
+            <div class="car-image">
+                <h3>your choice:</h3>
+                <img src="img/car-4.avif" alt="Model S">
+                <p class="car-model">Model S</p>
+            </div>
+            
+            <div class="car-info">
+                <h3>Configure:</h3>
+                <form class="car-form border-bottom">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="full-name">Full Name:</label>
+                            <input type="text" class="border-input-selected">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="country">Country:</label>
+                            <input type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="state">State:</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city">City:</label>
+                            <input type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="zip">ZIP Code:</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                </form>
+          
+                <div class="details-options border-bottom">
+                    <h3>Opcionais:</h3>
+                    <h3>Segurança</h3>
+                    
+                    <div class="option-car">
+                        <label>Airbags:</label>
+                        <div>
+                            <input type="radio" name="airbags" checked><span>2</span>
+                            <input type="radio" name="airbags"><span>4</span>
+                            <input type="radio" name="airbags"><span>6</span>
+                        </div>
+                    </div>
+                    
+                    <div class="option-car">
+                        <label>Kit mídia:</label>
+                        <div>
+                            <input type="radio" name="kit-midia" checked><span>0</span>
+                            <input type="radio" name="kit-midia"><span>1</span>
+                        </div>
+                    </div>
+                    
+                    <div class="option-car">
+                        <label>Faróis X:</label>
+                        <div>
+                            <input type="radio" name="farois" checked><span>2</span>
+                            <input type="radio" name="farois"><span>4</span>
+                            <input type="radio" name="farois"><span>6</span>
+                        </div>
+                    </div>
+                    
+                    <div class="option-car">
+                        <label>Sensor:</label>
+                        <div>
+                            <input type="radio" name="sensor" checked><span>2</span>
+                            <input type="radio" name="sensor"><span>4</span>
+                            <input type="radio" name="sensor"><span>6</span>
+                        </div>
+                    </div>
+                    
+                    <div class="option-car">
+                        <label>Estação de carga:</label>
+                        <div>
+                            <input type="radio" name="carga" checked><span>2</span>
+                            <input type="radio" name="carga"><span>4</span>
+                            <input type="radio" name="carga"><span>6</span>
+                        </div>
+                    </div>
+                </div>
+                
+          
+                <div class="price-summary">
+                    <div class="price-item">
+                        <span>TESLA MODEL S</span>
+                        <span class="price-value">R$ 395.000,00</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Options</span>
+                        <span class="price-value">R$ 25.000,00</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Freight</span>
+                        <span class="price-value">R$ 3.000,00</span>
+                    </div>
+                    <div class="price-total">
+                        <span>Total</span>
+                        <span class="price-value">R$ 423.000,00</span>
+                    </div>
+                </div>
+          
+                <div class="action-buttons">
+                    <button class="btn-other-model">View Other Models</button>
+                    <button class="btn-order-now">Order Now</button>
+                </div>
+            </div>
+        </div>
+      </section>         
+
+    <section class="full-banner" style="background-image: url(img/banner-2.avif);">
+        <div class="product-title">
+            <h2>powerwall</h2>
+        </div>
+        <div class="product-details">
+            <button class="btn-primary">order now</button>
+            <button class="btn-secondary">lear more</button>
+        </div>
+    </section>
+
+    <section class="full-banner" style="background-image: url(img/banner-3.avif);">
+        <div class="product-title">
+            <h2>acessories</h2>
+        </div>
+        <div class="product-details">
+            <button class="btn-primary">order now</button>
+            <button class="btn-secondary">lear more</button>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="container">
+            <div class="footer-block-text">
+                <p>1 Monthly lease payment excludes taxes and fees, is based on $44,990 Model Y Long Range Rear-Wheel Drive purchase price and is subject to change at any time. Requires $2,999 down with 36 months and 10,000 miles. Subject to credit approval and available in select U.S. states. Terms apply.</p>
+                <p>2 Monthly lease payment excludes taxes and fees, is based on $42,490 Model 3 Long Range Rear-Wheel Drive purchase price and is subject to change at any time. Requires $2,999 down with 36 months and 10,000 miles. Subject to credit approval and available in select U.S. states. Terms apply.</p>
+                <p>3 Price before estimated savings is $81,630, including Destination and Order Fees, but excluding taxes and other fees. Subject to change. Vehicle shown has upgrades that will increase the price. Estimated savings includes $6,500 in gas savings estimated over five years, the $7,500 Federal Tax Credit and state incentives, available to eligible buyers and subject to MSRP caps. Not all vehicles, customers or finance options will be eligible. Terms apply.</p>
+                <p>4 Price before estimated savings is $76,630, including Destination and Order Fees, but excluding taxes and other fees. Subject to change. Vehicle shown has upgrades that will increase the price. Estimated savings includes $6,500 in gas savings estimated over five years and state incentives, available to eligible buyers and subject to MSRP caps. Not all vehicles, customers or finance options will be eligible. Terms apply.</p>
+        
+            </div>
+        </div>
+
+        <div class="container menu-footer">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/">TESLA © 2024</a>
+                    </li>
+                    <li>
+                        <a href="/">PRIVACY & LEGAL</a>
+                    </li>
+                    <li>
+                        <a href="/">VEHICLES RECALLS</a>
+                    </li>
+                    <li>
+                        <a href="/">CONTACT</a>
+                    </li>
+                    <li>
+                        <a href="/">NEWS</a>
+                    </li>
+                    <li>
+                        <a href="/">GET UPDATES</a>
+                    </li>
+                    <li>
+                        <a href="/">LOCATIONS</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div>
+                <figure>
+                    <img src="img/logo-footer.svg" alt="Logotipo da Tesla">
+                </figure>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

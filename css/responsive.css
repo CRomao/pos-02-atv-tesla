@@ -1,0 +1,133 @@
+/* 2xl */
+@media (max-width: 1536px) {
+    
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    .container{
+        max-width: calc(1280px - 10%);
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+   
+    .container{
+        max-width: calc(1024px - 10%);
+        margin: 0 40px;
+    }
+
+    .content h1{
+        font-size: 36px;
+        width: 100%;
+    }
+
+    .content p{
+        width: 100%;
+    }
+    
+    .brand-cybertruck img{
+        width: 50%;
+    }
+
+    .catalogue-grid{
+        flex-wrap: wrap;
+    }
+
+    .car-details{
+        flex-wrap: wrap;
+    }
+
+    .car-image img {
+        max-width: 500px;
+    }
+      
+    
+}
+
+/* md */
+@media (max-width: 768px) {
+    .container{
+        max-width: calc(768px - 10%);
+        margin: 0 20px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .mobile-menu{
+        display: flex;
+    }
+
+    .footer-block-text{
+        width: 100%;
+    }
+
+    .content h1{
+        font-size: 26px;
+    }
+
+    .menu-footer ul{
+        flex-direction: column;
+    }
+
+    .full-banner{
+        padding: 40px;
+        height: 70vh;
+    }
+
+    .full-banner h2{
+        font-size: 22px;
+    }
+
+    .product-details{
+        flex-direction: column;
+    }
+
+    .options-btns{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .options-btns button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .title{
+        text-align: center;
+    }
+}
+   
+
+/* sm */
+@media (max-width: 640px) {
+    .container{
+        max-width: calc(640px - 10%);
+        margin: 0 20px;
+    }
+
+    .content h1{
+        font-size: 32px;
+    }
+
+    .full-banner h2{
+        font-size: 18px;
+    }
+}
+
+/* xs */
+@media (max-width: 475px) {
+    .container{
+        max-width: calc(475px - 10%);
+        margin: 0 20px;
+    }
+
+    .content h1{
+        font-size: 20px;
+    }
+}

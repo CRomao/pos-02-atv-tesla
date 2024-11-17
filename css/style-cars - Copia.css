@@ -1,0 +1,269 @@
+body{
+    font-family: "Orbitron", sans-serif;
+}
+
+header{
+    background-color: #F1F1F1;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.menu nav ul{
+    display: flex;
+    gap: 40px;
+}
+
+.menu nav ul li a{
+    color: #9A9999;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.menu nav ul li a:hover{
+    color: #212121;
+}
+
+.menu ul li a.active{
+    color: #212121;
+}
+
+.hero{
+    background-image: url(../img/banner-1.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.brand-cybertruck{
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content h1{
+    font-size: 36px;
+    color: #fff;
+    font-weight: normal;
+    width: 30%;
+    line-height: 1.4;
+}
+
+.content p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    width: 40%;
+    line-height: 2;
+}
+
+.content button{
+    background-color: #212121;
+    border: none;
+    color: #9A9999;
+    font-family: inherit;
+    text-transform: uppercase;
+    padding: 15px 80px;
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+button.border-button{
+    border-top: 3px solid #9A9999;
+}
+
+.catalogue{
+    padding: 60px 0;
+}
+
+.catalogue h2{
+    color: #9A9999;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.catalogue-grid{
+    display: flex;
+}
+
+.item-car{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item-car img{
+    width: 100%;
+}
+
+.item-car h3{
+    color: #212121;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 8px;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item-car .options a{
+    color: #9A9999;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.title{
+    margin-bottom: 40px;
+}
+
+.full-banner{
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.full-banner h2{
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 20px;
+}
+
+.product-details{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn-primary{
+    background-color: #3E6AE1;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: orbitron;
+    font-size: 10px;
+    padding: 15px 80px;
+    border-radius: 2px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-primary:hover, .btn-secondary:hover{
+    background-color: #212121;
+    transition: all 0.3s;
+}
+
+.btn-secondary{
+    background-color: #ffffff;
+    border: none;
+    color: #828282;
+    text-transform: uppercase;
+    font-family: orbitron;
+    font-size: 10px;
+    padding: 15px 80px;
+    border-radius: 2px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+footer{
+    padding: 60px 0;
+}
+
+.menu-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.menu-footer ul{
+    display: flex;
+    gap: 40px;
+}
+
+.menu-footer ul li a{
+    text-decoration: none;
+    color: #212121;
+    font-size: 10px;
+}
+
+.footer-block-text{
+    width: 600px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #828282;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: Inter;
+}
+
+.footer-block-text p{
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.mobile-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    transition: all 0.2s;
+    display: none;
+}
+
+.mobile-menu:hover{
+    opacity: 0.85;
+    transition: all 0.2s;
+}
+
+.mobile-menu div{
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.image-car{
+    width: 45%;
+}
+
+.container-flex-details-car{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
